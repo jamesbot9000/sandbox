@@ -81,8 +81,3 @@
     }
   }
   
-  resource "kubernetes_config_map" "carbon-relay-config" {
-    # (resource arguments)
-  }
-
-
