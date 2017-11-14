@@ -1,1 +1,4 @@
 provider "kubernetes" {}
+
+provider "google" {}
+
