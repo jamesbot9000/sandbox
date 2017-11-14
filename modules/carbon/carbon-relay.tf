@@ -1,5 +1,3 @@
-module "carbon-relay" {  
-  source = "github.com/jamesbot9000/sandbox/modules/carbon"
    resource "kubernetes_service" "carbon-relay" {
     metadata {
       name = "carbon-relay"
@@ -88,5 +86,3 @@ module "carbon-relay" {
   }
 
 
-  
-}
